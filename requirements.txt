@@ -1,0 +1,15 @@
+# Semantic Notes Search System Dependencies
+# Install with: pip install -r requirements.txt
+# For development: pip install -e ".[dev]"
+
+# Core dependencies
+numpy>=1.21.0
+sentence-transformers>=2.2.0
+qdrant-client>=1.6.0
+flask>=2.3.0
+gunicorn>=21.0.0
+torch>=2.0.0
+
+# Optional: CPU-only FAISS (for basic usage)
+# Install GPU version separately if needed: pip install faiss-gpu
+faiss-cpu>=1.7.0
